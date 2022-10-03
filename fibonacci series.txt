@@ -1,0 +1,30 @@
+/*//fibonacci series...
+import java.util.Scanner;
+class fibonacci{
+    public static void main(String args[]){
+        Scanner my = new Scanner(System.in);
+        System.out.println("Enter the number");
+        int n=my.nextInt();
+        int a=-1,b=1,c;
+        for(int i=1;i<=n;i++){
+            c=a+b;
+            System.out.println(c);
+            a=b;
+            b=c;
+        }
+    }
+}
+O/p:
+Enter the number
+8
+0
+1
+1
+2
+3
+5
+8
+13
+*/
+
+

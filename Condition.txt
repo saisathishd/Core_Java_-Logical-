@@ -1,0 +1,12 @@
+//conditional
+import java.lang.*;
+class conditional{
+    public static void main(String args[]){
+        int a=45,b=35;
+        int c;
+        c=a>b?a:b;
+        System.out.println("The greater nummber is a/b :"+c);
+    }
+}
+o/p:
+    The greater nummber is a/b :45

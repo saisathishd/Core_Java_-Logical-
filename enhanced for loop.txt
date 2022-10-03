@@ -1,0 +1,19 @@
+/*//Enhanced for loop
+import java.util.Scanner;
+class enh{
+    public static void main(String args[]){
+        int num[]={10,20,30,40,50,60,70};
+        for(int n:num){
+            System.out.println(n);
+        }
+    }
+}
+O/p:
+10
+20
+30
+40
+50
+60
+70
+*/

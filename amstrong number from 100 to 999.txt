@@ -1,0 +1,25 @@
+/*//write a program to find the armstrong number from 100 to 999...
+import java.util.Scanner;
+class armstrong{
+    public static void main(String args[]){
+        int d1,d2,d3,t,res;
+        for(int n=100;n<=999;n++){
+            t=n;
+            d3=t%10;
+            t=t/10;
+            d2=t%10;
+            t=t/10;
+            d1=t%10;
+            res=(d1*d1*d1)+(d2*d2*d2)+(d3*d3*d3);
+            if(n==res){
+                System.out.println(res+" is the armstrong");
+            }
+        }
+    }
+}
+//O/p:
+153 is the armstrong
+370 is the armstrong
+371 is the armstrong
+407 is the armstrong
+*/

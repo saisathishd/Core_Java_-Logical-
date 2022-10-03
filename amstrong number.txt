@@ -1,0 +1,32 @@
+/*//amstrong number...
+import java.util.Scanner;
+class amstrong{
+    public static void main(String args[]){
+        Scanner my = new Scanner(System.in);
+        System.out.println("Enter the number :");
+        int n=my.nextInt();
+        int t=n;
+        int d1,d2,d3;
+        d1=t%10;
+        t=t/10;
+        d2=t%10;
+        t=t/10;
+        d3=t%10;
+        int res=(d1*d1*d1)+(d2*d2*d2)+(d3*d3*d3);
+        if(n==res){
+            System.out.println(n+" is the amstrong");
+        }else{
+            System.out.println(n+" is not a amstrong");
+        }
+    }
+}
+O/p:
+Enter the number :
+153
+153 is the amstrong
+
+C:\Users\saisa\OneDrive\Desktop\java>java amstrong
+Enter the number :
+456
+456 is not a amstrong
+*/

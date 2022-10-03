@@ -1,0 +1,19 @@
+//(a+b)**2 formula using scanner to getting input
+import java.util.Scanner;
+class input{
+    public static void main(String args[]){
+        Scanner my = new Scanner(System.in);
+        int a,b;
+        System.out.println("Enter the a value :");
+        a=my.nextInt();
+        System.out.println("Enter the b value :");
+        b=my.nextInt();
+        System.out.println("(a+b)**2 = "+((a*a)+(b*b)+(2*a*b)));
+    }
+}
+//o/p
+Enter the a value :
+2
+Enter the b value :
+2
+(a+b)**2 = 16

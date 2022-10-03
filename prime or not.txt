@@ -1,0 +1,27 @@
+/*//Write a program to check the given number is prime or not...
+import java.util.Scanner;
+class prime{
+    public static void main(String args[]){
+        Scanner my = new Scanner(System.in);
+        System.out.print("Enter the number :");
+        int n=my.nextInt();
+        int f=0;
+        for(int i=1;i<=n;i++){
+            if(n%i==0){
+                f++;
+            }
+        }if(f==2){
+            System.out.println(n+" is a prime number");
+        }else{
+            System.out.println(n+" is not a prime number");
+        }
+    }
+}
+//O/p:
+Enter the number :5
+5 is a prime number
+
+C:\Users\saisa\OneDrive\Desktop\java>java prime
+Enter the number :78
+78 is not a prime number
+*/

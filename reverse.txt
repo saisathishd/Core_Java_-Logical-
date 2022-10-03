@@ -1,0 +1,22 @@
+/*//reverse...
+import java.util.Scanner;
+class reverse{
+    public static void main(String args[]){
+        Scanner my =new Scanner(System.in);
+        System.out.println("Enter the number :");
+        int n=my.nextInt();
+        int rev=0,rem;
+        while(n!=0){
+            rem=n%10;
+            rev=(rev*10)+rem;
+            n=n/10;
+        }
+        System.out.println("Reverse number is :"+rev);
+    }
+}
+O/p:
+Enter the number :
+1456789
+Reverse number is :9876541
+*/
+

@@ -1,0 +1,85 @@
+/*//while loop 
+import java.util.Scanner;
+class loop{
+    public static void main(String args[]){
+        System.out.println("Enter the limit :");
+        Scanner my = new Scanner(System.in);
+        int n=my.nextInt();
+        int i=1;
+        while(i<=n){
+            System.out.println(i);
+            i=i+1;
+        }
+    }
+}
+//O/P:
+Enter the limit :
+10
+
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+*/
+
+/*//Do while
+import java.util.Scanner;
+class loop{
+    public static void main(String args[]){
+        System.out.println("Enter the limit :");
+        Scanner my = new Scanner(System.in);
+        int n=my.nextInt();
+        int i=1;
+        do{
+            System.out.println(i);
+                i=i+1;
+        }while(i<=n);
+    }
+}
+//O/P:
+Enter the limit :
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+*/
+
+/*//For loop
+import java.util.Scanner;
+class loop{
+    public static void main(String args[]){
+        System.out.println("Enter the limit :");
+        Scanner my = new Scanner(System.in);
+        int n=my.nextInt();
+        for(int i=1;i<=n;i++){
+            System.out.println(i);
+        }
+    }
+}
+//O/P:
+Enter the limit :
+10
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+*/

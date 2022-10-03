@@ -1,0 +1,19 @@
+/*//Logical
+import java.lang.*;
+class assignment2{
+    public static void main(String args[]){
+        int m1=65,m2=75;
+        System.out.println("And && :"+(m1>=35 && m2>=35));
+        System.out.println("Or || :"+(m1>=35||m2>=35));
+    }
+}
+o/p:
+    m1=65,m2=75
+    true 
+    true
+    m1=25,m2=75
+    false 
+    true
+    m1=25,m2=15
+    false
+    false */

@@ -1,0 +1,60 @@
+//Switch case statement in java....
+/*
+Addition 
+Subtraction
+Multiplication
+Division
+*/
+/*
+import java.util.Scanner;
+class switchcase{
+    public static void main(String args[]){
+        int a,b,c=0,ch;
+        System.out.println("1.Addition");
+        System.out.println("2.Subtraction");
+        System.out.println("3.Multiplication");
+        System.out.println("4.Division");
+        System.out.print("Enter the choice : ");
+        Scanner my = new Scanner(System.in);
+        ch=my.nextInt();
+        System.out.println("Enter the two value");
+        System.out.println("Enter the a value :");
+        a=my.nextInt();
+        System.out.println("Enter the b value :");
+        b=my.nextInt();
+        switch(ch){
+            case 1:
+            c=a+b;
+            System.out.println("1.Addition :"+c);
+            break;
+            case 2:
+            c=a-b;
+            System.out.println("2.Subtraction :"+c);
+            break;
+            case 3:
+            c=a*b;
+            System.out.println("3.Multiplication :"+c);
+            break;
+            case 4:
+            c=a/b;
+            System.out.println("4.Division :"+c);
+            break;
+            default:
+            System.out.println("Invalid");
+            break;
+        }
+    }
+}
+//O/P:
+1.Addition
+2.Subtraction
+3.Multiplication
+4.Division
+Enter the choice : 2
+Enter the two value
+Enter the a value :
+3
+Enter the b value :
+2
+2.Subtraction :1
+*/

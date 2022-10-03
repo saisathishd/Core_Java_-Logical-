@@ -1,0 +1,41 @@
+import java.util.Scanner;
+class sumavg{
+    public static void main(String args[]){
+        Scanner my = new Scanner(System.in);
+        System.out.println("Enter the limit :");
+        int n=my.nextInt();
+        int s=0,a;
+        for(int i=1;i<=n;i++){
+            System.out.println("Enter the value"+i+" is :");
+            a=my.nextInt();
+            s+=a;
+        }
+        System.out.println("The sum of the number is :"+s);
+        System.out.println("The sum of average number is :"+s/n);
+    }
+}
+O/p:
+Enter the limit :
+10
+Enter the value1 is :
+2
+Enter the value2 is :
+3
+Enter the value3 is :
+4
+Enter the value4 is :
+4
+Enter the value5 is :
+8
+Enter the value6 is :
+4
+Enter the value7 is :
+5
+Enter the value8 is :
+8
+Enter the value9 is :
+4
+Enter the value10 is :
+5
+The sum of the number is :47
+The sum of average number is :4

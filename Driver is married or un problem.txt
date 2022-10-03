@@ -1,0 +1,31 @@
+/*A company insures its drivers in the following cases:
+    a. If the driver is married.
+    b. If the driver is unmarried, male & above 30 years of age.
+    c. if the driver is unmarried, female & above 25 years of age.*/
+
+import java.util.Scanner;
+class assignment3{
+    public static void main(String args[]){
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter the marital M/U:");
+        char marital=in.next().charAt(0);
+        if(marital=='M'||marital=='m'){
+            System.out.println("you are Eligible");
+        }else if(marital=='U'||marital=='u'){
+            System.out.println("Enter the Gender M/F:");
+            char Gender=in.next().charAt(0);
+            System.out.println("Enter the age");
+            int age=in.nextInt();
+            if(Gender=='M'||Gender=='m'&&age>=30){
+                System.out.println("You are Eligible");
+            }else if(Gender=='F'||Gender=='f'&&age>=25){
+                System.out.println("you are Eligible");
+            }else{
+                System.out.println("your not Eligible");
+            }
+        }else{
+            System.out.println("invalid");
+        }
+        
+    }
+}

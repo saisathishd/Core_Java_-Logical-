@@ -1,0 +1,28 @@
+if else statement
+/*import java.util.Scanner;
+class ifelse_statement{
+    public static void main(String args[]){
+        int age;
+        System.out.println("Enter the age :");
+        Scanner my=new Scanner(System.in);
+        age=my.nextInt();
+        if(age>=18){
+            System.out.println("You are Eligible for vote");
+        }
+        else{
+            System.out.println("You are not Eligible for vote");
+        }
+    }
+}
+//o/p:
+Enter the age :
+23
+You are Eligible for vote
+
+C:\Users\saisa\OneDrive\Desktop\java>java ifelse_statement
+Enter the age :
+12
+You are not Eligible for vote
+*/
+
+

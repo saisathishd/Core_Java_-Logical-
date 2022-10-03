@@ -1,0 +1,22 @@
+/*uniary operator
+import java.lang.*;
+class uniary{
+    public static void main(String args[]){
+        int a=100;
+        a=a+1;
+        System.out.println("inc of a :"+a);
+        a--;
+        System.out.println("dec of a :"+a);
+        System.out.println("only a value :"+(a++));
+        System.out.println("after inc :"+a);
+        System.out.println("preinc of a :"+(++a));
+        System.out.println("predec of a :"+(--a));
+    }
+}*/
+o/p
+inc of a :101
+dec of a :100
+only a value :100
+after inc :101
+preinc of a :102
+predec of a :101

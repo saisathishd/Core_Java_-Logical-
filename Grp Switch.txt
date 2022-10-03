@@ -1,0 +1,39 @@
+/*//Group Switch case
+//vowels and consonents
+//Code here:
+import java.util.Scanner;
+class groupswitch{
+    public static void main(String args[]){
+        char c;
+        System.out.println("Enter the alphate letter :");
+        Scanner my = new Scanner(System.in);
+        c=my.next().charAt(0);
+        switch(c){
+            case 'a':
+            case 'e':
+            case 'i':
+            case 'o':
+            case 'u':
+            case 'A':
+            case 'E':
+            case 'I':
+            case 'O':
+            case 'U':
+            System.out.println(c+" is a vowels");
+            break;
+            default:
+            System.out.println(c+" is a consonents");
+            break;
+        }
+    }
+}
+//O/P:
+Enter the alphate letter :
+d
+d is a consonents
+
+C:\Users\saisa\OneDrive\Desktop\java>java groupswitch
+Enter the alphate letter :
+e
+e is a vowels
+*/

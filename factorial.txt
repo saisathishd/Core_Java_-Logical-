@@ -1,0 +1,19 @@
+//factorial...
+import java.util.Scanner;
+class factorial{
+    public static void main(String args[]){
+        Scanner my = new Scanner(System.in);
+        System.out.println("Enter the number :");
+        int n=my.nextInt();
+        int f=1;
+        for(int i=1;i<=n;i++){
+            f=f*i;
+        }
+        System.out.println("Factorial number "+n+" is :"+f);
+    }
+}
+O/p:
+Enter the number :
+5
+Factorial number 5 is :120
+

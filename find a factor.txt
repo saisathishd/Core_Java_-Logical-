@@ -1,0 +1,23 @@
+/*//Write a program to find a factor of given program...
+import java.util.Scanner;
+class factor{
+    public static void main(String args[]){
+        Scanner my = new Scanner(System.in);
+        System.out.println("Enter the number :");
+        int n=my.nextInt();
+        for(int i=1;i<=n;i++){
+            if(n%i==0){
+                System.out.println(i);
+            }
+        }
+    }
+}
+O/p:
+Enter the number :
+8
+1
+2
+4
+8
+*/
+
